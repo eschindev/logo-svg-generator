@@ -7,6 +7,7 @@
 - [Technologies](#technologies)
 - [Tests](#tests)
 - [Questions](#questions)
+- [License](#license)
 
 [See it in action!](https://drive.google.com/file/d/1wprvBn1MH7npxpWyj2HmIyrxl2otcrtr/view)
 
