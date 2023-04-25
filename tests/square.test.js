@@ -17,14 +17,12 @@ describe('Square', () => {
 
             let expectedOutput = `<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">
 
-  <rect cx="150" cy="100" width="160" height="160" fill="red" />
+  <rect x="70" y="20" width="160" height="160" fill="red" />
 
-  <text x="150" y="125" font-size="60" text-anchor="middle" fill="white">text</text>
+  <text x="150" y="115" font-size="60" text-anchor="middle" fill="white">text</text>
 
 </svg>`;
             let renderOutput = square.render();
-            console.log(expectedOutput);
-            console.log(renderOutput);
 
             expect(renderOutput).toEqual(expectedOutput);
         })

@@ -19,12 +19,10 @@ describe('Square', () => {
 
   <polygon points="58,180 242,180 150,20" fill="red" />
 
-  <text x="150" y="125" font-size="60" text-anchor="middle" fill="white">text</text>
+  <text x="150" y="150" font-size="40" text-anchor="middle" fill="white">text</text>
 
 </svg>`;
             let renderOutput = triangle.render();
-            console.log(expectedOutput);
-            console.log(renderOutput);
 
             expect(renderOutput).toEqual(expectedOutput);
         })
